@@ -1,10 +1,11 @@
-# det825-i5-cyber-site
-Detachment I5 Cyber Website
+# Detachment 825 I5 Cyber Website
+
 Spring 2026
 
-Purpose:
+## Purpose
 Official detachment I5 cyber team website.
-Built and maintained by cadets.
+Built and maintained by cadets to highlight training, projects, and achievements.
 
-Hosting:
-GitHub Pages (initially)
+## Hosting
+Currently hosted using GitHub Pages: https://fiexinn.github.io/det825-i5-cyber-site/
+

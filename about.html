@@ -1,1 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Your Site</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand"><span class="dot"></span> Your Site</div>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
 
+    <section class="hero">
+      <h1>Welcome</h1>
+      <p class="subtitle">
+        This is the homepage. Use it to introduce your project, portfolio, or club.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h2>What this is</h2>
+        <p>Quick summary of what visitors should expect here.</p>
+      </div>
+      <div class="card half">
+        <h2>Next step</h2>
+        <p>
+          Add your details on the <a href="about.html">About</a> page and customize the content.
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">© <span id="year"></span> Your Name</div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,1 +1,71 @@
+/* Reset basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a1a2f;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background-color: #081421;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4da6ff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #004999;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #081421;
+  margin-top: 50px;
+}

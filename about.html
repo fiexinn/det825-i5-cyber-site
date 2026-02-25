@@ -1,1 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Your Site</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand"><span class="dot"></span> Your Site</div>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
 
+    <section class="hero">
+      <h1>About</h1>
+      <p class="subtitle">
+        Write 2–3 sentences: who you are, what you’re building, and why it matters.
+      </p>
+      <div class="badges">
+        <span class="badge">Cybersecurity</span>
+        <span class="badge">Projects</span>
+        <span class="badge">UT Austin</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h2>Who I am</h2>
+        <p>
+          Replace this with your story. Example: I’m a CS student interested in cybersecurity and building
+          practical tools that solve real problems.
+        </p>
+      </div>
+
+      <div class="card half">
+        <h2>What I’m working on</h2>
+        <ul>
+          <li>Project / portfolio item #1</li>
+          <li>Project / portfolio item #2</li>
+          <li>Club / research / CTF work</li>
+        </ul>
+      </div>
+
+      <div class="card third">
+        <h2>Skills</h2>
+        <ul>
+          <li>Python / Java</li>
+          <li>Linux / Git</li>
+          <li>CTFs / security basics</li>
+        </ul>
+      </div>
+
+      <div class="card third">
+        <h2>Values</h2>
+        <ul>
+          <li>Curiosity</li>
+          <li>Discipline</li>
+          <li>Impact</li>
+        </ul>
+      </div>
+
+      <div class="card third">
+        <h2>Contact</h2>
+        <p>
+          Add links:
+          <br />GitHub: <a href="https://github.com/YOURNAME">yourname</a>
+          <br />Email: <a href="mailto:you@example.com">you@example.com</a>
+          <br />LinkedIn: <a href="#">link</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="footer">© <span id="year"></span> Your Name</div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

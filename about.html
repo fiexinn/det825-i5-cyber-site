@@ -1,46 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Home | Your Site</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>About | Det 825 I5</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="nav">
-      <div class="brand"><span class="dot"></span> Your Site</div>
-      <nav class="links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-      </nav>
-    </header>
 
-    <section class="hero">
-      <h1>Welcome</h1>
-      <p class="subtitle">
-        This is the homepage. Use it to introduce your project, portfolio, or club.
+  <header>
+    <h1>Det 825 I5 | About Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- About I5 -->
+    <section class="about-i5">
+      <h2>What is I5?</h2>
+      <p>
+        Detachment 825’s I5 program combines <strong>Cybersecurity</strong> and <strong>Rocketry</strong> tracks to give students hands-on technical experience and leadership opportunities. 
+        Learn more at the <a href="https://www.i5.mil" target="_blank">official I5 website</a>.
       </p>
     </section>
 
-    <section class="grid">
-      <div class="card half">
-        <h2>What this is</h2>
-        <p>Quick summary of what visitors should expect here.</p>
-      </div>
-      <div class="card half">
-        <h2>Next step</h2>
-        <p>
-          Add your details on the <a href="about.html">About</a> page and customize the content.
-        </p>
-      </div>
+    <!-- Cyber Track -->
+    <section class="track">
+      <h2>Cyber Track</h2>
+      <p>
+        Develop offensive and defensive cybersecurity skills through competitions, labs, and simulated operations. Gain experience you can put directly on your resume.
+      </p>
     </section>
 
-    <div class="footer">© <span id="year"></span> Your Name</div>
-  </div>
+    <!-- Rocketry Track -->
+    <section class="track">
+      <h2>Rocketry Track</h2>
+      <p>
+        Design, build, and launch rockets while learning propulsion, flight dynamics, and aerospace principles. Hands-on engineering experience in a student-led program.
+      </p>
+    </section>
+
+    <!-- Squadron Highlights -->
+    <section class="squadron-highlights">
+      <h2>Squadron Highlights</h2>
+      <p>
+        Check out our past events, competitions, and launches — from cyber defense competitions to rocket launches, we stay active and engaged.
+      </p>
+    </section>
+
+    <!-- Socials -->
+    <section class="socials">
+      <h2>Follow Us</h2>
+      <p>
+        Stay up-to-date with our events on <a href="https://instagram.com">Instagram</a>, <a href="https://discord.gg">Discord</a>, and other social platforms.
+      </p>
+    </section>
+
+    <!-- Guest Speakers -->
+    <section class="guest-speakers">
+      <h2>Guest Speakers</h2>
+      <p>
+        Industry leaders and ROTC officers frequently visit to share knowledge and career guidance with our members.
+      </p>
+    </section>
+
+    <!-- Alumni -->
+    <section class="alumni">
+      <h2>Alumni</h2>
+      <p>
+        Our alumni have gone on to careers in cybersecurity, aerospace, and military leadership. We maintain a strong network to mentor current members.
+      </p>
+    </section>
+
+    <!-- Det Staff / Officers -->
+    <section class="staff">
+      <h2>Detachment Staff & Officers</h2>
+      <p>
+        Meet the cadre and student leaders who guide Det 825 I5. Their dedication keeps the program running smoothly and ensures members get the best experience.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Det 825 I5
+  </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>

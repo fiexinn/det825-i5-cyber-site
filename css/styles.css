@@ -5,13 +5,19 @@
   box-sizing: border-box;
 }
 
+/* Body with fade-in animation */
 body {
   font-family: Arial, sans-serif;
   background-color: #0a1a2f;
   color: white;
   line-height: 1.6;
   opacity: 0;
-  transition: opacity 1s ease;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* Header */
@@ -50,6 +56,7 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -58,10 +65,12 @@ nav a:hover {
   text-decoration: none;
   border-radius: 6px;
   margin-top: 15px;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #004999;
+  background-color: #008cff;
+  box-shadow: 0 0 10px #008cff;
 }
 
 /* Footer */
@@ -72,6 +81,7 @@ footer {
   margin-top: 50px;
 }
 
+/* Programs Split Section */
 .programs {
   display: flex;
   height: 80vh;
@@ -85,8 +95,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+.program:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+/* Cyber & Rocketry Backgrounds */
 .cyber {
   background-image: url("../images/cyber.jpg");
 }
@@ -95,11 +112,14 @@ footer {
   background-image: url("../images/rocket.jpg");
 }
 
+/* Overlay content */
 .overlay {
   background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
   padding: 40px;
   text-align: center;
   color: white;
+  border-radius: 6px;
 }
 
 .overlay h2 {
@@ -109,23 +129,4 @@ footer {
 
 .overlay p {
   max-width: 400px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #0066cc;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.program {
-  flex: 1;
-  transition: transform 0.3s ease;
-}
-
-.program:hover {
-  transform: scale(1.05);
 }

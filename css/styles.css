@@ -69,3 +69,52 @@ footer {
   background-color: #081421;
   margin-top: 50px;
 }
+
+.programs {
+  display: flex;
+  height: 80vh;
+}
+
+.program {
+  flex: 1;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cyber {
+  background-image: url("../images/cyber.jpg");
+}
+
+.rocketry {
+  background-image: url("../images/rocket.jpg");
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  max-width: 400px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

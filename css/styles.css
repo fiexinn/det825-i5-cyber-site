@@ -138,3 +138,23 @@ footer {
 .overlay p {
   max-width: 400px;
 }
+
+/* About Page Sections */
+.about-i5, .track, .squadron-highlights, .socials, .guest-speakers, .alumni, .staff {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-i5 h2, .track h2, .squadron-highlights h2,
+.socials h2, .guest-speakers h2, .alumni h2, .staff h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #4da6ff;
+}
+
+.about-i5 p, .track p, .squadron-highlights p,
+.socials p, .guest-speakers p, .alumni p, .staff p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
